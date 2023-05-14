@@ -2,7 +2,8 @@ import Figure.Circle;
 import Figure.Hexagon;
 import Figure.Oval;
 import Figure.Pentagon;
-import Triangle.Triangle;
+import Triangles.RightTriangle;
+import Triangles.Triangle;
 
 public class Main {
     public static void main(String[] args) {
@@ -20,5 +21,8 @@ public class Main {
 
         Triangle triangle = new Triangle("Треугольник");
         triangle.sayName();
+
+        RightTriangle rightTriangle = new RightTriangle("Прямоугольный треугольник");
+        rightTriangle.sayName();
     }
 }

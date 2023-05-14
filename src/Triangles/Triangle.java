@@ -1,4 +1,4 @@
-package Triangle;
+package Triangles;
 
 import Figure.Figure;
 
