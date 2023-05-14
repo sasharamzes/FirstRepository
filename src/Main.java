@@ -2,6 +2,7 @@ import Figure.Circle;
 import Figure.Hexagon;
 import Figure.Oval;
 import Figure.Pentagon;
+import Figure.Triangles.EquilateralTriangle;
 import Figure.Triangles.IsoscelesTriangle;
 import Figure.Triangles.RightTriangle;
 import Figure.Triangles.Triangle;
@@ -28,5 +29,8 @@ public class Main {
 
         IsoscelesTriangle isoscelesTriangle = new IsoscelesTriangle("Равнобедренный треугольник");
         isoscelesTriangle.sayName();
+
+        EquilateralTriangle equilateralTriangle = new EquilateralTriangle("Равносторонний треугольник");
+        equilateralTriangle.sayName();
     }
 }
