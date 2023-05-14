@@ -6,6 +6,7 @@ import Figure.Triangles.EquilateralTriangle;
 import Figure.Triangles.IsoscelesTriangle;
 import Figure.Triangles.RightTriangle;
 import Figure.Triangles.Triangle;
+import Figure.quadrilateral.Quadrilateral;
 
 public class Main {
     public static void main(String[] args) {
@@ -32,5 +33,8 @@ public class Main {
 
         EquilateralTriangle equilateralTriangle = new EquilateralTriangle("Равносторонний треугольник");
         equilateralTriangle.sayName();
+
+        Quadrilateral quadrilateral = new Quadrilateral("Четырехугольник");
+        quadrilateral.sayName();
     }
 }
