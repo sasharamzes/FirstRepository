@@ -7,6 +7,7 @@ import Figure.Triangles.IsoscelesTriangle;
 import Figure.Triangles.RightTriangle;
 import Figure.Triangles.Triangle;
 import Figure.quadrilateral.ConvexQuadrilateral;
+import Figure.quadrilateral.Parallelogram;
 import Figure.quadrilateral.Quadrilateral;
 
 public class Main {
@@ -40,5 +41,8 @@ public class Main {
 
         ConvexQuadrilateral convexQuadrilateral = new ConvexQuadrilateral("Выпуклый четырехугольник");
         convexQuadrilateral.sayName();
+
+        Parallelogram parallelogram = new Parallelogram("Параллелограм");
+        parallelogram.sayName();
     }
 }
