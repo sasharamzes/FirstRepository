@@ -51,5 +51,8 @@ public class Main {
 
         Rhombus rhombus = new Rhombus("Ромб");
         rhombus.sayName();
+
+        Trapeze trapeze = new Trapeze("Трапеция");
+        trapeze.sayName();
     }
 }
