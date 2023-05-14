@@ -2,8 +2,9 @@ import Figure.Circle;
 import Figure.Hexagon;
 import Figure.Oval;
 import Figure.Pentagon;
-import Triangles.RightTriangle;
-import Triangles.Triangle;
+import Figure.Triangles.IsoscelesTriangle;
+import Figure.Triangles.RightTriangle;
+import Figure.Triangles.Triangle;
 
 public class Main {
     public static void main(String[] args) {
@@ -24,5 +25,8 @@ public class Main {
 
         RightTriangle rightTriangle = new RightTriangle("Прямоугольный треугольник");
         rightTriangle.sayName();
+
+        IsoscelesTriangle isoscelesTriangle = new IsoscelesTriangle("Равнобедренный треугольник");
+        isoscelesTriangle.sayName();
     }
 }
