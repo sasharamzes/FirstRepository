@@ -6,10 +6,7 @@ import Figure.Triangles.EquilateralTriangle;
 import Figure.Triangles.IsoscelesTriangle;
 import Figure.Triangles.RightTriangle;
 import Figure.Triangles.Triangle;
-import Figure.quadrilateral.ConvexQuadrilateral;
-import Figure.quadrilateral.Parallelogram;
-import Figure.quadrilateral.Quadrilateral;
-import Figure.quadrilateral.Rectangle;
+import Figure.quadrilateral.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -48,5 +45,8 @@ public class Main {
 
         Rectangle rectangle = new Rectangle("Прямоугольник");
         rectangle.sayName();
+
+        Square square = new Square("Квадрат");
+        square.sayName();
     }
 }
