@@ -6,6 +6,7 @@ import Figure.Triangles.EquilateralTriangle;
 import Figure.Triangles.IsoscelesTriangle;
 import Figure.Triangles.RightTriangle;
 import Figure.Triangles.Triangle;
+import Figure.quadrilateral.ConvexQuadrilateral;
 import Figure.quadrilateral.Quadrilateral;
 
 public class Main {
@@ -36,5 +37,8 @@ public class Main {
 
         Quadrilateral quadrilateral = new Quadrilateral("Четырехугольник");
         quadrilateral.sayName();
+
+        ConvexQuadrilateral convexQuadrilateral = new ConvexQuadrilateral("Выпуклый четырехугольник");
+        convexQuadrilateral.sayName();
     }
 }
