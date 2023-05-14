@@ -1,4 +1,5 @@
 import Figure.Circle;
+import Figure.Hexagon;
 import Figure.Oval;
 import Figure.Pentagon;
 
@@ -12,5 +13,8 @@ public class Main {
 
         Circle circle = new Circle("Окружность");
         circle.sayName();
+
+        Hexagon hexagon = new Hexagon("Шистиугольник");
+        hexagon.sayName();
     }
 }
