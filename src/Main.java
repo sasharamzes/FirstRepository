@@ -9,6 +9,7 @@ import Figure.Triangles.Triangle;
 import Figure.quadrilateral.ConvexQuadrilateral;
 import Figure.quadrilateral.Parallelogram;
 import Figure.quadrilateral.Quadrilateral;
+import Figure.quadrilateral.Rectangle;
 
 public class Main {
     public static void main(String[] args) {
@@ -44,5 +45,8 @@ public class Main {
 
         Parallelogram parallelogram = new Parallelogram("Параллелограм");
         parallelogram.sayName();
+
+        Rectangle rectangle = new Rectangle("Прямоугольник");
+        rectangle.sayName();
     }
 }
