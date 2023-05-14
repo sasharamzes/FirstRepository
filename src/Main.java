@@ -48,5 +48,8 @@ public class Main {
 
         Square square = new Square("Квадрат");
         square.sayName();
+
+        Rhombus rhombus = new Rhombus("Ромб");
+        rhombus.sayName();
     }
 }
